@@ -56,4 +56,3 @@ function showImage(event) {
   instance.element().querySelector("IMG").src = event.target.dataset.source;
   instance.show();
 }
-console.log(galleryItems);
